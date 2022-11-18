@@ -5,6 +5,22 @@ from flask_login import UserMixin
 from .enum_values import countries, languages, pronouns
 
 class User(db.Model, UserMixin):
+
+	'''
+
+    Use the static methods when creating a new user instance
+	for attributes:
+		first_name = set_default_first_name(email)
+		username = set_default_username(email)
+
+	relationships :
+		users --> likes
+		users --> comments
+		users --> replies
+		users <-> follows
+		users --> boards
+    '''
+
 	__tablename__ = 'users'
 
 	if environment == "production":
@@ -29,6 +45,8 @@ class User(db.Model, UserMixin):
 	finished_signup = db.Column(db.Boolean(), default=False)
 	created_on = db.Column(db.DateTime, default=db.func.now())
 	updated_on = db.Column(db.DateTime, default=db.func.now(), server_onupdate=db.func.now())
+
+	boards = db.relationship('Board', back_populates='user', cascade='all, delete')
 
 	@property
 	def password(self):
@@ -75,4 +93,12 @@ class User(db.Model, UserMixin):
 			'username' : self.username,
 			'email' : self.email,
 			'age' : self.age,
+		}
+
+	def to_dict_basic_info(self):
+		return {
+			'id' : self.id,
+			'first_name' : self.first_name,
+			'last_name' : self.last_name,
+			'profile_pic' : self.profile_pic
 		}
