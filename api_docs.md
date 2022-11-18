@@ -855,8 +855,8 @@ Returns all the pins.
 			"id" : 1,
 			"media_url" : "https://i.pinimg.com/originals/c2/1c/15/c21c15271b1a73f15cab2d152563afb4.jpg",
 			"title" : "pokeball",
-			"createdAt": "2021-11-19 20:39:36",
-     	 	"updatedAt": "2021-11-19 20:39:36",
+			"created_on": "2021-11-19 20:39:36",
+     	 	"updated_on": "2021-11-19 20:39:36",
 			"user" : {
 				"id" : 1,
 				"first_name" : "Demolition",
@@ -869,8 +869,8 @@ Returns all the pins.
 			"id" : 2,
 			"media_url" : "https://i.pinimg.com/originals/6d/2c/54/6d2c54126dae331528fc2af6b43acfa1.jpg",
 			"title" : "rando_pic",
-			"createdAt": "2021-11-19 20:39:36",
-      		"updatedAt": "2021-11-19 20:39:36",
+			"created_on": "2021-11-19 20:39:36",
+      		"updated_on": "2021-11-19 20:39:36",
 			"user" : {
 				"id" : 1,
 				"first_name" : "Demolition",
@@ -883,8 +883,8 @@ Returns all the pins.
 			"id" : 3,
 			"media_url" : "https://3121c1231.jpg",
 			"title" : "test",
-			"createdAt": "2021-11-19 20:39:36",
-      		"updatedAt": "2021-11-19 20:39:36",
+			"created_on": "2021-11-19 20:39:36",
+      		"updated_on": "2021-11-19 20:39:36",
 			"user" : {
 				"id" : 1,
 				"first_name" : "Demolition",
@@ -921,8 +921,8 @@ Returns all the pins that were saved from the current user.
 			"id" : 1,
 			"media_url" : "https://i.pinimg.com/originals/c2/1c/15/c21c15271b1a73f15cab2d152563afb4.jpg",
 			"title" : "pokeball",
-			"createdAt": "2021-11-19 20:39:36",
-     	 	"updatedAt": "2021-11-19 20:39:36",
+			"created_on": "2021-11-19 20:39:36",
+     	 	"updated_on": "2021-11-19 20:39:36",
 			"user" : {
 				"id" : 1,
 				"first_name" : "Demolition",
@@ -935,8 +935,8 @@ Returns all the pins that were saved from the current user.
 			"id" : 2,
 			"media_url" : "https://i.pinimg.com/originals/6d/2c/54/6d2c54126dae331528fc2af6b43acfa1.jpg",
 			"title" : "rando_pic",
-			"createdAt": "2021-11-19 20:39:36",
-      		"updatedAt": "2021-11-19 20:39:36",
+			"created_on": "2021-11-19 20:39:36",
+      		"updated_on": "2021-11-19 20:39:36",
 			"user" : {
 				"id" : 1,
 				"first_name" : "Demolition",
@@ -949,8 +949,8 @@ Returns all the pins that were saved from the current user.
 			"id" : 3,
 			"media_url" : "https://3121c1231.jpg",
 			"title" : "test",
-			"createdAt": "2021-11-19 20:39:36",
-      		"updatedAt": "2021-11-19 20:39:36",
+			"created_on": "2021-11-19 20:39:36",
+      		"updated_on": "2021-11-19 20:39:36",
 			"user" : {
 				"id" : 1,
 				"first_name" : "Demolition",
@@ -988,24 +988,24 @@ Returns all the current users pins.
 			"id" : 1,
 			"media_url" : "https://i.pinimg.com/originals/c2/1c/15/c21c15271b1a73f15cab2d152563afb4.jpg",
 			"title" : "pokeball",
-			"createdAt": "2021-11-19 20:39:36",
-      		"updatedAt": "2021-11-19 20:39:36",
+			"created_on": "2021-11-19 20:39:36",
+      		"updated_on": "2021-11-19 20:39:36",
 			"topic" : "games"
         },
 		{
 			"id" : 2,
 			"media_url" : "https://i.pinimg.com/originals/6d/2c/54/6d2c54126dae331528fc2af6b43acfa1.jpg",
 			"title" : "rando_pic",
-			"createdAt": "2021-11-19 20:39:36",
-      		"updatedAt": "2021-11-19 20:39:36",
+			"created_on": "2021-11-19 20:39:36",
+      		"updated_on": "2021-11-19 20:39:36",
 			"topic" : "games"
         },
 		{
 			"id" : 3,
 			"media_url" : "https://3121c1231.jpg",
 			"title" : "test",
-			"createdAt": "2021-11-19 20:39:36",
-      		"updatedAt": "2021-11-19 20:39:36",
+			"created_on": "2021-11-19 20:39:36",
+      		"updated_on": "2021-11-19 20:39:36",
 			"topic" : "games"
         }
       ],
@@ -1048,24 +1048,24 @@ Returns all pins from a users id.
 			"id" : 1,
 			"media_url" : "https://i.pinimg.com/originals/c2/1c/15/c21c15271b1a73f15cab2d152563afb4.jpg",
 			"title" : "pokeball",
-			"createdAt": "2021-11-19 20:39:36",
-      		"updatedAt": "2021-11-19 20:39:36",
+			"created_on": "2021-11-19 20:39:36",
+      		"updated_on": "2021-11-19 20:39:36",
 			"topic" : "games"
         },
 		{
 			"id" : 2,
 			"media_url" : "https://i.pinimg.com/originals/6d/2c/54/6d2c54126dae331528fc2af6b43acfa1.jpg",
 			"title" : "rando_pic",
-			"createdAt": "2021-11-19 20:39:36",
-      		"updatedAt": "2021-11-19 20:39:36",
+			"created_on": "2021-11-19 20:39:36",
+      		"updated_on": "2021-11-19 20:39:36",
 			"topic" : "games"
         },
 		{
 			"id" : 3,
 			"media_url" : "https://3121c1231.jpg",
 			"title" : "test",
-			"createdAt": "2021-11-19 20:39:36",
-      		"updatedAt": "2021-11-19 20:39:36",
+			"created_on": "2021-11-19 20:39:36",
+      		"updated_on": "2021-11-19 20:39:36",
 			"topic" : "games"
         }
       ],
@@ -1123,9 +1123,9 @@ Return details of a pin from pin id.
 		"saves" : 4,
 		"is_commentable" : true,
 		"notes_to_self" : "this a pokeball",
-		"board_only" : false,
-		"createdAt": "2021-11-19 20:39:36",
-		"updatedAt": "2021-11-19 20:39:36",
+		"board_id" : 1,
+		"created_on": "2021-11-19 20:39:36",
+		"updated_on": "2021-11-19 20:39:36",
       },
 	  "topic" : "games",
 	  "board" : {
@@ -1157,7 +1157,6 @@ Create a pin and returns pin information
 		"website": "media.com",
 		"is_commentable" : true,
 		"notes_to_self" : "this a pokeball",
-		"board_only" : false,
 		"topic" : "games",
 		"board" : "profile" // has to exist
     }
@@ -1185,8 +1184,8 @@ Create a pin and returns pin information
 		"is_commentable" : true,
 		"notes_to_self" : "this a pokeball",
 		"board_id" : 1,
-		"createdAt": "2021-11-19 20:39:36",
-		"updatedAt": "2021-11-19 20:39:36",
+		"created_on": "2021-11-19 20:39:36",
+		"updated_on": "2021-11-19 20:39:36",
       },
 	  "topic" : "games",
 	  "board" : {
@@ -1263,8 +1262,8 @@ Edit details of a pin from id.
 		"is_commentable" : false,
 		"notes_to_self" : "here is new note",
 		"board_id" : 1,
-		"createdAt": "2021-11-19 20:39:36",
-		"updatedAt": "2021-11-19 20:39:36",
+		"created_on": "2021-11-19 20:39:36",
+		"updated_on": "2021-11-19 20:39:36",
 		"board" : {
 			"id" : 1,
 			"board_cover" : "https://i.pinimg.com/originals/c2/1c/	15/c21c15271b1a73f15cab2d152563afb4.jpg",
@@ -1655,24 +1654,24 @@ Returns all pins from a board id.
 			"id" : 1,
 			"media_url" : "https://i.pinimg.com/originals/c2/1c/15/c21c15271b1a73f15cab2d152563afb4.jpg",
 			"title" : "pokeball",
-			"createdAt": "2021-11-19 20:39:36",
-      		"updatedAt": "2021-11-19 20:39:36",
+			"created_on": "2021-11-19 20:39:36",
+      		"updated_on": "2021-11-19 20:39:36",
 			"topic" : "games"
         },
 		{
 			"id" : 2,
 			"media_url" : "https://i.pinimg.com/originals/6d/2c/54/6d2c54126dae331528fc2af6b43acfa1.jpg",
 			"title" : "rando_pic",
-			"createdAt": "2021-11-19 20:39:36",
-      		"updatedAt": "2021-11-19 20:39:36",
+			"created_on": "2021-11-19 20:39:36",
+      		"updated_on": "2021-11-19 20:39:36",
 			"topic" : "games"
         },
 		{
 			"id" : 3,
 			"media_url" : "https://3121c1231.jpg",
 			"title" : "test",
-			"createdAt": "2021-11-19 20:39:36",
-      		"updatedAt": "2021-11-19 20:39:36",
+			"created_on": "2021-11-19 20:39:36",
+      		"updated_on": "2021-11-19 20:39:36",
 			"topic" : "games"
         }
       ],
@@ -1721,8 +1720,8 @@ Create a board and returns pin information
 		"board_cover" : "",
 		"is_secret" : false,
 		"name" : "new board",
-		"createdAt": "2021-11-19 20:39:36",
-		"updatedAt": "2021-11-19 20:39:36",
+		"created_on": "2021-11-19 20:39:36",
+		"updated_on": "2021-11-19 20:39:36",
     }
     ```
 
@@ -1785,8 +1784,8 @@ Edit a board from id and returns board information
 		"board_cover" : "board_cover.png",
 		"is_secret" : true,
 		"name" : "edited_board",
-		"createdAt": "2021-11-19 20:39:36",
-		"updatedAt": "2021-11-19 20:39:36",
+		"created_on": "2021-11-19 20:39:36",
+		"updated_on": "2021-11-19 20:39:36",
     }
     ```
 
