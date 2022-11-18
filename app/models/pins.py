@@ -35,7 +35,7 @@ class Pin(db.Model):
 	created_on = db.Column(db.DateTime, default=db.func.now())
 	updated_on = db.Column(db.DateTime, default=db.func.now(), server_onupdate=db.func.now())
 
-	boards = db.relationship('Board', back_populates='pins', cascade='all, delete-orphan')
+	board = db.relationship('Board', back_populates='pins', cascade='all, delete-orphan')
 
 	def to_dict(self):
 		return {
