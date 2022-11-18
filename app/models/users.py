@@ -46,7 +46,8 @@ class User(db.Model, UserMixin):
 	created_on = db.Column(db.DateTime, default=db.func.now())
 	updated_on = db.Column(db.DateTime, default=db.func.now(), server_onupdate=db.func.now())
 
-	boards = db.relationship('Board', back_populates='user', cascade='all, delete')
+	boards = db.relationship('Board', back_populates='user', cascade='all, delete-orphan')
+	followings = db.relationship('Follow', foreign_keys='Follow.follower_id', back_populates='follower', cascade='all, delete-orphan')
 
 	@property
 	def password(self):

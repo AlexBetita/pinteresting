@@ -21,12 +21,12 @@ class Board(db.Model):
 	name = db.Column(db.String(50), nullable=False)
 	board_cover = db.Column(db.String)
 	is_secret = db.Column(db.Boolean, default=False)
-	user_id = db.Column(db.Integer, db.ForeignKey('users.id'))
+	user_id = db.Column(db.Integer, db.ForeignKey('users.id'), ondelete='CASCADE')
 	created_on = db.Column(db.DateTime, default=db.func.now())
 	updated_on = db.Column(db.DateTime, default=db.func.now(), server_onupdate=db.func.now())
 
-	user = db.relationship('User', back_populates='boards', cascade='all, delete-orphan')
-	pins = db.relationship('User', back_populates='board', cascade='all, delete')
+	user = db.relationship('User', back_populates='boards', passive_deletes=True)
+	pins = db.relationship('User', back_populates='board', cascade='all, delete-orphan')
 
 	def to_dict(self):
 		return {

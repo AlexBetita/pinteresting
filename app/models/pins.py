@@ -31,11 +31,11 @@ class Pin(db.Model):
 	saves = db.Column(db.Integer)
 	is_commentable = db.Column(db.Boolean(), default=True)
 	notes_to_self = db.Column(db.String)
-	board_id = db.Column(db.Integer, db.ForeignKey('boards.id'))
+	board_id = db.Column(db.Integer, db.ForeignKey('boards.id'), ondelete='CASCADE')
 	created_on = db.Column(db.DateTime, default=db.func.now())
 	updated_on = db.Column(db.DateTime, default=db.func.now(), server_onupdate=db.func.now())
 
-	board = db.relationship('Board', back_populates='pins', cascade='all, delete-orphan')
+	board = db.relationship('Board', back_populates='pins',  passive_deletes=True)
 
 	def to_dict(self):
 		return {
